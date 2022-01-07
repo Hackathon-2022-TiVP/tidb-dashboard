@@ -40,6 +40,7 @@ type Model struct {
 	// Detail
 	PrevStmt string `gorm:"column:Prev_stmt" json:"prev_stmt"`
 	Plan     string `gorm:"column:Plan" json:"plan"`
+	PlanJson string `gorm:"column:PlanJson" json:"planJson"`
 
 	// Basic
 	IsInternal   int    `gorm:"column:Is_internal" json:"is_internal"`
